@@ -153,6 +153,7 @@ h6 {
   right: 0;
   transition: all 0.5s;
   z-index: 997;
+  background: #010a2d;
 }
 
 #header.header-scrolled,
@@ -274,7 +275,7 @@ h6 {
 
 .nav-menu .menu-active a,
 .nav-menu a:hover {
-  color: #0549ab;
+  color: #ff0000;
 }
 
 .nav-menu > li {
@@ -469,7 +470,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #intro {
   width: 100%;
   height: 100vh;
-  background: url(../img/intro-bg.png) top center;
+  background: url(../img/2.jpeg) top center;
   background-size: cover;
   overflow: hidden;
   position: relative;
@@ -603,7 +604,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #intro .about-btn {
   font-family: "Raleway", sans-serif;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 20px;
   letter-spacing: 1px;
   display: inline-block;
   padding: 12px 32px;
@@ -653,6 +654,25 @@ body.mobile-nav-active #mobile-nav-toggle {
 /*--------------------------------------------------------------
 # About Section
 --------------------------------------------------------------*/
+#aboutt {
+  background: url("../img/about-bbg.jpg");
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+  color: #fff;
+  padding: 60px 0 40px 0;
+}
+
+#aboutt:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.8);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
 
 #about {
   background: url("../img/about-bg.jpg");
